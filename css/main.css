@@ -48,9 +48,7 @@ h4 {font-size: 2rem;}
 h5 {font-size: 1.5rem;}
 h6 {font-size: 1.1rem;}
 
-/* =================
-   Navbar Styling
-   ================= */
+/* =================  Navbar Styling  ================= */
 .navbar {
     background-color: var(--white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -217,15 +215,13 @@ h6 {font-size: 1.1rem;}
     font-weight: 600;
 }
 
-/* =================
-   Contact Form Section
-   ================= */
+/* =================  Contact Form Section  ================= */
 #contact {
     scroll-margin-top: 60px;
 }
 
 #contact h2 {
-    color: var(--dark-color);
+    color: var(--primary-color);
     font-weight: 700;
     margin-bottom: 2rem;
 }
