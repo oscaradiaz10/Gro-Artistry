@@ -65,11 +65,11 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <div class="mb-3">
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
                             </div>
                             <p class="card-text">"Exceptional service from start to finish! The attention to detail and professionalism was outstanding. I highly recommend Gro Artistry to anyone looking for quality work."</p>
                             <footer class="blockquote-footer">Sarah Johnson</footer>
@@ -82,11 +82,11 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <div class="mb-3">
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
                             </div>
                             <p class="card-text">"I was impressed by the prompt response and the level of care taken with my needs. The results exceeded my expectations. Definitely coming back!"</p>
                             <footer class="blockquote-footer">Michael Chen</footer>
@@ -99,11 +99,11 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <div class="mb-3">
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
                             </div>
                             <p class="card-text">"Professional, reliable, and results-oriented. The team goes above and beyond to ensure customer satisfaction. Worth every penny!"</p>
                             <footer class="blockquote-footer">Emily Rodriguez</footer>
@@ -116,11 +116,11 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <div class="mb-3">
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
+                                <i class="fas fa-star text-warning card-star"></i>
                             </div>
                             <p class="card-text">"Best decision I made! The expertise and friendliness made the whole experience pleasant. Highly recommended to all my friends and family."</p>
                             <footer class="blockquote-footer">David Thompson</footer>
