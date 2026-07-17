@@ -137,7 +137,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <h2 class="text-center mb-5">Get In Touch</h2>
-                    <form id="contactForm" method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+
+                    <!-- AJAX status message -->
+                    <div id="formStatus" class="mt-3" aria-live="polite"></div>
+
+                    <form id="contactForm" method="POST" action="includes/contact-handler.php" novalidate>
                         <div class="mb-3">
                             <label for="name" class="form-label">Full Name</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -158,27 +162,18 @@
                             <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
 
+                        <!-- Honeypot field: hidden from real users, catches bots -->
+                        <div class="d-none" aria-hidden="true">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            <button type="submit" class="btn btn-primary btn-lg" id="contactSubmitBtn">
+                                <span class="btn-text">Send Message</span>
+                            </button>
                         </div>
                     </form>
-
-                    <!-- Success Message -->
-                    <?php
-                    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                        $name = htmlspecialchars($_POST['name'] ?? '');
-                        $email = htmlspecialchars($_POST['email'] ?? '');
-                        $phone = htmlspecialchars($_POST['phone'] ?? '');
-                        $message = htmlspecialchars($_POST['message'] ?? '');
-
-                        if ($name && $email && $message) {
-                            echo '<div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
-                                    <strong>Thank you, ' . $name . '!</strong> Your message has been received. We\'ll get back to you soon.
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                </div>';
-                        }
-                    }
-                    ?>
                 </div>
             </div>
         </div>
@@ -188,6 +183,9 @@
 
     <!-- Bootstrap 5 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form AJAX -->
+    <script src="js/contact.js"></script>
 
     <!-- Smooth Scrolling Script -->
     <script>

@@ -1,0 +1,7 @@
+{
+    "name": "gro-artistry/site",
+    "description": "Gro Artistry website",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
